@@ -14,7 +14,7 @@ download[0] = download[0].replace(',', '.')
 upload[0] = upload[0].replace(',', '.')
 
 try:
-    if os.stat('/home/pi/speedtest/speedtest.csv').st_size == 0:
+    if os.stat('/home/pi/dev/speedtestpy/speedtest.csv').st_size == 0:
         print 'Date,Time,Ping (ms),Download (Mbit/s),Upload (Mbit/s)'
 except:
     pass
